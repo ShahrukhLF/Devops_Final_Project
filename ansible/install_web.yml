@@ -1,6 +1,6 @@
 ---
 - name: Install Apache and deploy web app
-  hosts: web
+  hosts: all
   become: yes
   tasks:
     - name: Update apt cache
